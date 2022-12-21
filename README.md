@@ -1,10 +1,8 @@
 # League-Language-Changer
 
-First small app I made to swap languages in League with Python
+First "script" I "wrote" to swap languages in League with Python
 
-There is Raw and Folder
-
-Download folder as ZIP and run main.exe.
+This is a raw file.
 
 Very primitive technology but it works. 
 
@@ -12,6 +10,6 @@ Does not find your league of legend path, assumes its at C:/Riot Games. Only wor
 
 Close client before using. 
 
-Code is done very badly, its copy and pasted from multiple sources, stiched together with my 2 days of experience. 
+Code is done very badly, its copy and pasted from multiple sources, stiched together with my short experience. 
 
 Hope it works for you!~
