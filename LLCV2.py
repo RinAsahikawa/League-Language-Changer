@@ -74,13 +74,13 @@ window.geometry("300x200")
 window.rowconfigure([0, 1], minsize=5, weight=1)
 window.columnconfigure([0, 1], minsize=50, weight=1)
 
-l1=tk.Label(window,text='Language List')
+l1=tk.Label(window,text='Language List "Scrollable"')
 l1.grid(row=0,column=0,columnspan=1,pady=0)
 
 vscroll=tk.Scrollbar(window, orient=VERTICAL)
 vscroll.grid(row=1, column=2, sticky=N+S)
 
-l1 = tk.Listbox(window,height=5, yscrollcommand=vscroll.set)
+l1 = tk.Listbox(window,height=7, yscrollcommand=vscroll.set)
 l1.grid(row=1,column=0,padx=20,pady=20) 
 
 Scrollbar
