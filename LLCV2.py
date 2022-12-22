@@ -64,8 +64,9 @@ def dal():
     with open("C:\Riot Games\League of Legends\Config\LeagueClientSettings.yaml", "w") as f:
         f.writelines(lines)
 
-    import sys, string, os
-    os.popen(r"C:\Riot Games\League of Legends\LeagueClient.exe")
+    subprocess.run(
+        r"C:\Riot Games\League of Legends\LeagueClient.exe", check=True
+    )
 
 window = tk.Tk()
 window.title("Language Selection")
